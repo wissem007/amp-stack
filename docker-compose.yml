@@ -18,8 +18,8 @@ services:
 
   amp-stack:
     container_name: ampstack
-    #image: amp-stack
-    build: ./docker-image
+    image: wissem007/amp-stack
+    #build: ./docker-image
     links:
       - mysql:mysql
     depends_on:
